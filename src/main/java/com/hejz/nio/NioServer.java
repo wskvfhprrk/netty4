@@ -21,10 +21,13 @@ public class NioServer {
         //设置为非阻塞,
         serverSocketChannel.configureBlocking(false);
         System.out.println("服务启动成功");
+        //在此循环迭代查找socketChanel中有值的进行处理，缺点是无论chanelList有多少个连接，它都要循环遍历，使用selector——多路复用器代替，可以提高性能
         while (true){
             SocketChannel socketChannel = serverSocketChannel.accept();
+            //如果客户端没有连接，程序到此结束，如果有连接才会往下进行
             if(socketChannel!=null){
                 System.out.println("连接成功！");
+                //连接配置为非阻塞
                 socketChannel.configureBlocking(false);
                 chanelList.add(socketChannel);
             }
@@ -33,6 +36,7 @@ public class NioServer {
                 SocketChannel sc = iterator.next();
                 ByteBuffer byteBuffer = ByteBuffer.allocate(128);
                 int read = sc.read(byteBuffer);
+                //如果读到数据进行处理
                 if(read>0){
                     System.out.println("接收到消息："+new String(byteBuffer.array()));
                 }else if(read==-1){
