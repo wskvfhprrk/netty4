@@ -1,7 +1,5 @@
-package com.hejz;
+package main.java.com.hejz.tomcat;
 
-import com.hejz.tomcat.GPRequest;
-import com.hejz.tomcat.GPResponse;
 import com.hejz.tomcat.GPServlet;
 
 import java.io.FileInputStream;
