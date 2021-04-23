@@ -7,9 +7,12 @@ import java.net.Socket;
 public class ScketServer {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket=new ServerSocket(9000);
-        Socket socket = serverSocket.accept();
-        System.out.printf("客户端连接了》》》》");
-        heandler(socket);
+        while (true){
+            System.out.println("服务端已经准备好连接。。。。");
+            Socket socket = serverSocket.accept();
+            System.out.printf("客户端连接了》》》》");
+            heandler(socket);
+        }
     }
 
     private static void heandler(Socket socket) throws IOException {

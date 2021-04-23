@@ -4,40 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6615a7ab-065a-4d1a-9924-4bd6dcdaa0d6" name="Default Changelist" comment="添加bio">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/hejz/demo/bio/SocketServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/hejz/demo/bufferdemo/AioServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/hejz/demo/bufferdemo/BufferDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/hejz/demo/bufferdemo/BufferSlice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/hejz/demo/bufferdemo/BufferWrap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/hejz/demo/bufferdemo/DirectBuffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/hejz/demo/bufferdemo/Input.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/hejz/demo/bufferdemo/IntBufferDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/hejz/demo/bufferdemo/MappedBuffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/hejz/demo/bufferdemo/ReadOnlyBuffer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/hejz/demo/selectordemo/FileOutputDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/src/main/java/com/hejz/demo/selectordemo/GetSelector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/hejz/demo/bio/SocketServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/hejz/demo/bufferdemo/AioServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/hejz/demo/bufferdemo/BufferDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/hejz/demo/bufferdemo/BufferSlice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/hejz/demo/bufferdemo/BufferWrap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/hejz/demo/bufferdemo/DirectBuffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/hejz/demo/bufferdemo/Input.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/hejz/demo/bufferdemo/IntBufferDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/hejz/demo/bufferdemo/MappedBuffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/hejz/demo/bufferdemo/ReadOnlyBuffer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/hejz/demo/selectordemo/FileOutputDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/target/classes/com/hejz/demo/selectordemo/GetSelector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty_demo/src/main/java/com/hejz/bio/ScketServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/com/hejz/NetyTomcat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/com/hejz/http/FirstServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/com/hejz/http/SecondServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/com/hejz/tomcat/GPServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/servlet/src/com/hejz/tomcat/GPTomcat.java" beforeDir="false" />
+    <list default="true" id="6615a7ab-065a-4d1a-9924-4bd6dcdaa0d6" name="Default Changelist" comment="整理目录">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/nio/NioSelectorServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/nio/NioServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/bio/ScketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/bio/ScketServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +52,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -90,11 +63,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hejz.servlet.tomcat" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/demo/src/main/java" />
       <recent name="$PROJECT_DIR$/demo/src/main" />
       <recent name="$PROJECT_DIR$/demo/src/com/hejz" />
       <recent name="$PROJECT_DIR$/demo/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hejz.nio" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -104,7 +83,33 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ScketServer">
+  <component name="RunManager" selected="Application.NioSelectorServer">
+    <configuration name="NioSelectorServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hejz.nio.NioSelectorServer" />
+      <module name="netty4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hejz.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NioServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hejz.nio.NioServer" />
+      <module name="netty4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hejz.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadOnlyBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hejz.demo.bufferdemo.ReadOnlyBuffer" />
       <module name="demo" />
@@ -212,6 +217,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NioSelectorServer" />
+        <item itemvalue="Application.NioServer" />
         <item itemvalue="Application.ReadOnlyBuffer" />
       </list>
     </recent_temporary>
@@ -235,7 +242,7 @@
       <workItem from="1619073472720" duration="298000" />
       <workItem from="1619073808965" duration="753000" />
       <workItem from="1619074612568" duration="3032000" />
-      <workItem from="1619143102161" duration="152000" />
+      <workItem from="1619143102161" duration="5367000" />
     </task>
     <task id="LOCAL-00001" summary="添加bio">
       <created>1619142522361</created>
@@ -244,7 +251,28 @@
       <option name="project" value="LOCAL" />
       <updated>1619142522361</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="整理目录">
+      <created>1619143323905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619143323906</updated>
+    </task>
+    <task id="LOCAL-00003" summary="整理目录">
+      <created>1619143372859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619143372859</updated>
+    </task>
+    <task id="LOCAL-00004" summary="整理目录">
+      <created>1619143549215</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619143549215</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +298,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加bio" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加bio" />
+    <MESSAGE value="整理目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理目录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
