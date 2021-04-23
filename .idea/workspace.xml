@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6615a7ab-065a-4d1a-9924-4bd6dcdaa0d6" name="Default Changelist" comment="bio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/nio/NioSelectorServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/nio/NioSelectorServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/nio/NioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/nio/NioServer.java" afterDir="false" />
     </list>
@@ -197,7 +196,7 @@
       <workItem from="1619073808965" duration="753000" />
       <workItem from="1619074612568" duration="3032000" />
       <workItem from="1619143102161" duration="5915000" />
-      <workItem from="1619161424094" duration="5091000" />
+      <workItem from="1619161424094" duration="5175000" />
     </task>
     <task id="LOCAL-00001" summary="添加bio">
       <created>1619142522361</created>
@@ -241,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619165976374</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="bio">
+      <created>1619170979620</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619170979620</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +287,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hejz/nio/NioSelectorServer.java</url>
-          <line>30</line>
+          <line>33</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
