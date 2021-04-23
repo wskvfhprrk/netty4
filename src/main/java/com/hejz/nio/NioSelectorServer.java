@@ -12,6 +12,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * 使用多路复用器的nio服务——selector
+ */
 public class NioSelectorServer {
 
     public static void main(String[] args) throws IOException {

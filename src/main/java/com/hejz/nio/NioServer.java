@@ -9,6 +9,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * nio的初始版本——没有多路复用器
+ */
 public class NioServer {
     //存放SocketChannel的集合——这样有一个坏处，无论多少连接都需要遍历查询有值的进行处理，使用selector——多路复用器来代替，并提高性能
     private static List<SocketChannel> chanelList=new ArrayList<>();
