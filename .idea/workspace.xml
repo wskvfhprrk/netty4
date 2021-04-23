@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6615a7ab-065a-4d1a-9924-4bd6dcdaa0d6" name="Default Changelist" comment="bio">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/nio/NioSelectorServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/nio/NioSelectorServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/nio/NioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/nio/NioServer.java" afterDir="false" />
+    <list default="true" id="6615a7ab-065a-4d1a-9924-4bd6dcdaa0d6" name="Default Changelist" comment="netty Server编写">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_63_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_4_0_0_Alpha8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/netty_demo/NettyDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hejz/netty_demo/NettyDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hejz/netty/NettyDemoApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +69,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hejz.netty" />
       <recent name="com.hejz.servlet.tomcat" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -156,7 +164,7 @@
     </configuration>
     <configuration name="NettyDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="netty4" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hejz.netty_demo.NettyDemoApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hejz.netty.NettyDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,7 +204,7 @@
       <workItem from="1619073808965" duration="753000" />
       <workItem from="1619074612568" duration="3032000" />
       <workItem from="1619143102161" duration="5915000" />
-      <workItem from="1619161424094" duration="5175000" />
+      <workItem from="1619161424094" duration="11952000" />
     </task>
     <task id="LOCAL-00001" summary="添加bio">
       <created>1619142522361</created>
@@ -247,7 +255,28 @@
       <option name="project" value="LOCAL" />
       <updated>1619170979620</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bio">
+      <created>1619171070964</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619171070964</updated>
+    </task>
+    <task id="LOCAL-00009" summary="使用selector多路复用器的nio例子">
+      <created>1619171166141</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1619171166141</updated>
+    </task>
+    <task id="LOCAL-00010" summary="使用selector多路复用器的nio例子">
+      <created>1619171214102</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1619171214102</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +304,10 @@
     <MESSAGE value="添加bio" />
     <MESSAGE value="整理目录" />
     <MESSAGE value="bio" />
-    <option name="LAST_COMMIT_MESSAGE" value="bio" />
+    <MESSAGE value="使用select" />
+    <MESSAGE value="使用selector多路复用器的nio例子" />
+    <MESSAGE value="netty Server编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty Server编写" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -287,7 +319,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hejz/nio/NioSelectorServer.java</url>
-          <line>33</line>
+          <line>31</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

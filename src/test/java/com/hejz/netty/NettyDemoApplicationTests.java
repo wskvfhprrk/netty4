@@ -1,4 +1,4 @@
-package com.hejz.netty_demo;
+package com.hejz.netty;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
