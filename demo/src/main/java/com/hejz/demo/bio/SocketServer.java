@@ -9,6 +9,7 @@ public class SocketServer {
         ServerSocket serverSocket=new ServerSocket(9000);
         System.out.println("等待连接。。。。。");
         while (true){
+            System.out.println("等待连接。。。。。");
             Socket socket = serverSocket.accept();
             System.out.println("有客户连接了。。。。。");
             handler(socket);
