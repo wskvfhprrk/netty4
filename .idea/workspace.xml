@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6615a7ab-065a-4d1a-9924-4bd6dcdaa0d6" name="Default Changelist" comment="netty Server编写">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_63_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_4_0_0_Alpha8.xml" beforeDir="false" />
+    <list default="true" id="6615a7ab-065a-4d1a-9924-4bd6dcdaa0d6" name="Default Changelist" comment="netty clent编写">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/netty_demo/NettyDemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hejz/netty_demo/NettyDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hejz/netty/NettyDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServerHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +73,9 @@
       <recent name="$PROJECT_DIR$/demo/src/com/hejz" />
       <recent name="$PROJECT_DIR$/demo/src" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hejz.netty" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hejz.nio" />
     </key>
@@ -89,7 +87,33 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NioSelectorServer">
+  <component name="RunManager" selected="Application.NettyClient">
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hejz.netty.NettyClient" />
+      <module name="netty4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hejz.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hejz.netty.NettyServer" />
+      <module name="netty4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hejz.netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NioSelectorServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hejz.nio.NioSelectorServer" />
       <module name="netty4" />
@@ -178,6 +202,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer" />
         <item itemvalue="Application.NioSelectorServer" />
         <item itemvalue="Application.NioServer" />
         <item itemvalue="Application.ReadOnlyBuffer" />
@@ -204,7 +230,7 @@
       <workItem from="1619073808965" duration="753000" />
       <workItem from="1619074612568" duration="3032000" />
       <workItem from="1619143102161" duration="5915000" />
-      <workItem from="1619161424094" duration="11952000" />
+      <workItem from="1619161424094" duration="13985000" />
     </task>
     <task id="LOCAL-00001" summary="添加bio">
       <created>1619142522361</created>
@@ -276,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619171214102</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="netty Server编写">
+      <created>1619344879503</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619344879503</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +340,8 @@
     <MESSAGE value="使用select" />
     <MESSAGE value="使用selector多路复用器的nio例子" />
     <MESSAGE value="netty Server编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="netty Server编写" />
+    <MESSAGE value="netty clent编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty clent编写" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
