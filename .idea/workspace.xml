@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6615a7ab-065a-4d1a-9924-4bd6dcdaa0d6" name="Default Changelist" comment="netty clent编写">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyClientHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,19 +165,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BioApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="bio" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hejz.bio.BioApplication" />
@@ -230,7 +216,8 @@
       <workItem from="1619073808965" duration="753000" />
       <workItem from="1619074612568" duration="3032000" />
       <workItem from="1619143102161" duration="5915000" />
-      <workItem from="1619161424094" duration="13985000" />
+      <workItem from="1619161424094" duration="14246000" />
+      <workItem from="1619408388487" duration="557000" />
     </task>
     <task id="LOCAL-00001" summary="添加bio">
       <created>1619142522361</created>
@@ -309,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619344879503</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="netty clent编写">
+      <created>1619395614975</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1619395614975</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

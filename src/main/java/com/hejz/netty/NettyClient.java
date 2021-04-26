@@ -14,10 +14,12 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 
 public class NettyClient {
     public static void main(String[] args) {
+        // 客户端仅需要一个group即可
         EventLoopGroup group = new NioEventLoopGroup(1);
         try {
             Bootstrap bootstrap = new Bootstrap();
             bootstrap.group(group)
+                    //异步客户端TCPSocket连接。
                     .channel(NioSocketChannel.class)
                     .handler(new ChannelInitializer<SocketChannel>() {
                         @Override
