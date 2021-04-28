@@ -28,8 +28,7 @@ public class NettyClient {
                         }
                     });
             System.out.println("netty client start ..");
-            ChannelFuture channelFuture = bootstrap.connect("127.0.0.1", 9000).sync();
-            channelFuture.channel().closeFuture().sync();
+            ChannelFuture channelFuture = bootstrap.connect("127.0.0.1", 9000).channel().closeFuture().sync();
         } catch (InterruptedException e) {
             e.printStackTrace();
         }finally {

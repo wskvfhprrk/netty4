@@ -20,8 +20,8 @@ public class ChatClient {
                     @Override
                     protected void initChannel(SocketChannel sc) throws Exception {
                         ChannelPipeline pipeline = sc.pipeline();
-                        pipeline.addLast("decoder",new StringDecoder());
-                        pipeline.addLast("encoder",new StringEncoder());
+                        pipeline.addLast(new StringDecoder());
+                        pipeline.addLast(new StringEncoder());
                         pipeline.addLast(new ChatClientHandler());
                     }
                 });

@@ -23,20 +23,22 @@ public class ChatServer {
                         protected void initChannel(SocketChannel ch) throws Exception {
                             ChannelPipeline pipeline = ch.pipeline();
                             //加入解码器
-                            pipeline.addLast("decoder",new StringDecoder());
+                            pipeline.addLast(new StringDecoder());
                             //加入编码器
-                            pipeline.addLast("encoder",new StringEncoder());
+                            pipeline.addLast(new StringEncoder());
                             pipeline.addLast(new ChatServerHandler());
                         }
                     });
             System.out.println("服务端启动");
-            ChannelFuture cf = bootstrap.bind(9000).sync();
-            if (cf.isSuccess()) {
-                System.out.println("服务端启动成功");
-            } else {
-                System.out.println("服务端启动失败");
-            }
-            cf.channel().closeFuture().sync();
+            ChannelFuture cf = bootstrap.bind(9000).channel().closeFuture().sync();
+            //给cf注册监听器，监听我们关心的事件
+//            cf.addListener((ChannelFutureListener) channelFuture -> {
+//                if (cf.isSuccess()) {
+//                    System.out.println("监听端口9000成功");
+//                } else {
+//                    System.out.println("监听端口9000失败");
+//                }
+//            });
         } catch (InterruptedException e) {
             e.printStackTrace();
         }finally {

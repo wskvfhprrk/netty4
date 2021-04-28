@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6615a7ab-065a-4d1a-9924-4bd6dcdaa0d6" name="Default Changelist" comment="chat编写">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/ChatClient.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/NettyClient.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatServerHandler.java" afterDir="false" />
+    <list default="true" id="6615a7ab-065a-4d1a-9924-4bd6dcdaa0d6" name="Default Changelist" comment="bio">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat1/netty/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat1/netty/NettyClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat1/netty/NettyClientIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat1/netty/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat1/netty/NettyServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/ChatClient.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hejz/netty/NettyServerHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,30 +62,32 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowDuplicates.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/hejz/chat1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.hejz.chat" />
+      <recent name="com.hejz.chat1.netty" />
       <recent name="com.hejz.netty" />
       <recent name="com.hejz.servlet.tomcat" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/hejz/chat1" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/hejz" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/demo/src/main/java" />
       <recent name="$PROJECT_DIR$/demo/src/main" />
       <recent name="$PROJECT_DIR$/demo/src/com/hejz" />
       <recent name="$PROJECT_DIR$/demo/src" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.hejz.netty" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hejz.nio" />
@@ -93,7 +100,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChatClient">
+  <component name="RunManager" selected="Application.NettyClient (1)">
+    <configuration name="ChatClient" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hejz.chat.ChatClient" />
+      <module name="netty4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hejz.chat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hejz.chat.ChatServer" />
       <module name="netty4" />
@@ -107,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hejz.netty.NettyServer" />
+    <configuration name="NettyClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hejz.chat1.netty.NettyClient" />
       <module name="netty4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hejz.netty.*" />
+          <option name="PATTERN" value="com.hejz.chat1.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,25 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NioSelectorServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hejz.nio.NioSelectorServer" />
+    <configuration name="NettyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hejz.chat1.netty.NettyServer" />
       <module name="netty4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hejz.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadOnlyBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hejz.demo.bufferdemo.ReadOnlyBuffer" />
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hejz.demo.bufferdemo.*" />
+          <option name="PATTERN" value="com.hejz.chat1.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,13 +166,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="SecureChatClient" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hejz.securechat.SecureChatClient" />
+      <module name="netty4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hejz.securechat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecureChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hejz.securechat.SecureChatServer" />
+      <module name="netty4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hejz.securechat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -192,22 +227,25 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ScketServer" />
-      <item itemvalue="Application.NettyClient" />
       <item itemvalue="Application.ChatClient" />
-      <item itemvalue="Application.NettyServer" />
-      <item itemvalue="Application.NioSelectorServer" />
-      <item itemvalue="Application.ReadOnlyBuffer" />
+      <item itemvalue="Application.NettyClient" />
+      <item itemvalue="Application.ScketServer" />
       <item itemvalue="Application.ChatServer" />
+      <item itemvalue="Application.SecureChatClient" />
+      <item itemvalue="Application.SecureChatServer" />
       <item itemvalue="Spring Boot.BioApplication" />
       <item itemvalue="Spring Boot.NettyDemoApplication" />
       <item itemvalue="Spring Boot.NettyDemoApplication (1)" />
+      <item itemvalue="Application.NettyServer (1)" />
+      <item itemvalue="Application.NettyClient (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NettyClient (1)" />
+        <item itemvalue="Application.NettyServer (1)" />
+        <item itemvalue="Application.SecureChatClient" />
+        <item itemvalue="Application.SecureChatServer" />
         <item itemvalue="Application.ChatServer" />
-        <item itemvalue="Application.NettyServer" />
-        <item itemvalue="Application.NioSelectorServer" />
       </list>
     </recent_temporary>
   </component>
@@ -231,10 +269,10 @@
       <workItem from="1619073808965" duration="753000" />
       <workItem from="1619074612568" duration="3032000" />
       <workItem from="1619143102161" duration="5915000" />
-      <workItem from="1619161424094" duration="14246000" />
-      <workItem from="1619408388487" duration="6474000" />
-      <workItem from="1619426977090" duration="505000" />
-      <workItem from="1619429402422" duration="2373000" />
+      <workItem from="1619161424094" duration="11952000" />
+      <workItem from="1619511534050" duration="97000" />
+      <workItem from="1619511650464" duration="6235000" />
+      <workItem from="1619573994349" duration="3119000" />
     </task>
     <task id="LOCAL-00001" summary="添加bio">
       <created>1619142522361</created>
@@ -306,28 +344,7 @@
       <option name="project" value="LOCAL" />
       <updated>1619171214102</updated>
     </task>
-    <task id="LOCAL-00011" summary="netty Server编写">
-      <created>1619344879503</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1619344879503</updated>
-    </task>
-    <task id="LOCAL-00012" summary="netty clent编写">
-      <created>1619395614975</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1619395614975</updated>
-    </task>
-    <task id="LOCAL-00013" summary="netty clent编写">
-      <created>1619409095924</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1619409095925</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,9 +375,7 @@
     <MESSAGE value="使用select" />
     <MESSAGE value="使用selector多路复用器的nio例子" />
     <MESSAGE value="netty Server编写" />
-    <MESSAGE value="netty clent编写" />
-    <MESSAGE value="chat编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="chat编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty Server编写" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -376,24 +391,19 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatClientHandler.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="9" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatServerHandler.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatServerHandler.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="13" />
+          <line>36</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatClient.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hejz/chat/ChatServerHandler.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/hejz/chat1/netty/NettyServerHandler.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
